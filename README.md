@@ -6,6 +6,7 @@ Cloud server for the multiplatform music player application [***Soul Searching**
 - save your *Soul Searching* data (songs, playlists, statistics,...) remotely
 - support for multiple users (optimized for a group of friends, a family) with inscription codes
 - shared played list between multiple users (like Spotify)
+- manage your music library remotely 
 
 > Check the matching Cloudy releases with [Soul Searching](https://github.com/enteraname74/SoulSearching) ones in the [compatibilities](compatibilities.md) file in this repository
 

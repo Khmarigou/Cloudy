@@ -10,6 +10,7 @@ import com.github.enteraname74.cloudy.controller.routing.playlist.playlistRoutin
 import com.github.enteraname74.cloudy.controller.routing.statistics.statisticsRouting
 import com.github.enteraname74.cloudy.controller.routing.soulsearching.soulSearchingRouting
 import com.github.enteraname74.cloudy.controller.routing.user.userRoutes
+import com.github.enteraname74.cloudy.controller.routing.web.webUiRouting
 import io.ktor.http.ContentType
 import io.ktor.openapi.OpenApiInfo
 import io.ktor.server.application.Application
@@ -41,6 +42,7 @@ fun Application.configureRouting() {
         playerRouting()
         statisticsRouting()
         soulSearchingRouting()
+        webUiRouting()
         get("/hello") {
             call.respondText("Cloudy - Average White Band - 1975")
         }

@@ -48,3 +48,7 @@ traefik/dynamic.yml
 
 local.properties
 docker_commands.txt
+
+### Web UI ###
+web/node_modules/
+web/dist/
